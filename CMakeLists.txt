@@ -173,6 +173,7 @@ foreach (STUDY_SOURCE_FILE IN LISTS STUDY_SOURCE_FILES)
     add_executable(
             "${STUDY_TARGET_NAME}"
             "${STUDY_SOURCE_FILE}"
+            c_review/09_pointer/p_04.c
     )
 
     # 수정된 부분:
