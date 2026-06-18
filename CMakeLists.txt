@@ -86,6 +86,7 @@ endif ()
 # c_review/**/*.c
 # data_structures/**/*.c
 # algorithms/**/*.c
+# problems/**/*.c
 #
 # 이 폴더 아래의 각 .c 파일은
 # 독립적인 main() 함수를 가져야 한다.
@@ -97,6 +98,7 @@ file(
         "${CMAKE_CURRENT_SOURCE_DIR}/c_review/*.c"
         "${CMAKE_CURRENT_SOURCE_DIR}/data_structures/*.c"
         "${CMAKE_CURRENT_SOURCE_DIR}/algorithms/*.c"
+        "${CMAKE_CURRENT_SOURCE_DIR}/problems/*.c"
 )
 
 # ================================
