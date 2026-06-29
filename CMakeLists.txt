@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.25)
 
-project(c_dsa_study LANGUAGES C)
+project(c-dsa-study LANGUAGES C)
 
 # ================================
 # C 표준 설정
